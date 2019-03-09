@@ -57,7 +57,24 @@ class Morse:
             '6' : [ dah, dit, dit, dit, dit ],
             '7' : [ dah, dah, dit, dit, dit ],
             '8' : [ dah, dah, dah, dit, dit ],
-            '9' : [ dah, dah, dah, dah, dit ]
+            '9' : [ dah, dah, dah, dah, dit ],
+            '.' : [ dit, dah, dit, dah, dit, dah ],
+            ',' : [ dah, dah, dit, dit, dah, dah ],
+            ':' : [ dah, dah, dah, dit, dit, dit ],
+            '?' : [ dit, dit, dah, dah, dit, dit ],
+            '\'': [ dit, dah, dah, dah, dah, dit ],
+            '-' : [ dah, dit, dit, dit, dit, dah ],
+            '/' : [ dah, dit, dit, dah, dit ],
+            '(' : [ dah, dit, dah, dah, dit, dah ],
+            '{' : [ dah, dit, dah, dah, dit, dah ],
+            '<' : [ dah, dit, dah, dah, dit, dah ],
+            '[' : [ dah, dit, dah, dah, dit, dah ],
+            ']' : [ dah, dit, dah, dah, dit, dah ],
+            '>' : [ dah, dit, dah, dah, dit, dah ],
+            '}' : [ dah, dit, dah, dah, dit, dah ],
+            ')' : [ dah, dit, dah, dah, dit, dah ],
+            '@' : [ dit, dah, dah, dit, dah, dit ],
+            '=' : [ dah, dit, dit, dit, dah ]
         }
         self.camera = picamera.PiCamera()
         self.camera.led = False
